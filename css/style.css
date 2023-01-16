@@ -47,6 +47,7 @@ body {
   background-color: rgba(170, 170, 170, 0.115);
   width: 100%;
   padding: 3px 3px;
+  height: 35px;
 }
 .calculator button {
   height: 60px;
