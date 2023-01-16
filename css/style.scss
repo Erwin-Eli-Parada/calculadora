@@ -6,6 +6,7 @@
 }
 body{
     background: linear-gradient(180deg,rgb(219, 252, 236),rgb(11, 245, 77));
+    font-weight: bolder;
 }
 .container{
     height: 100vh;
@@ -28,7 +29,7 @@ body{
 
     .theme-toggler{
         position: absolute;
-        background: black;
+        background: rgb(104, 104, 104);
         top: 20px;
         width: 25px;
         height: 25px;
@@ -60,6 +61,8 @@ body{
         width: 60px;
         border-radius: 30px;
         border-width: 0;
+        font-weight: 600;
+        margin: 3px;
     }
 
     #clear{
@@ -74,5 +77,6 @@ body{
     }
     .btn-equals{
         background-color: #93f49e;
+        height: 120px;
     }
 }
