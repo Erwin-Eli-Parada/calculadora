@@ -60,4 +60,16 @@ body {
   width: 60px;
   border-radius: 30px;
   border-width: 0;
+}
+.calculator #clear {
+  background-color: #f4939a;
+}
+.calculator .btn-operator {
+  background-color: #f4f293;
+}
+.calculator .btn-number {
+  background-color: #93b0f4;
+}
+.calculator .btn-equals {
+  background-color: #93f49e;
 }/*# sourceMappingURL=style.css.map */
