@@ -36,34 +36,41 @@ buttons.forEach(item => {
                 display.innerText = eval(display.textContent);
             break;
             case "1":
-                display.innerText=display.textContent.concat("1");
+                numeros("1");
             break;
             case "2":
-                display.innerText=display.textContent.concat("2");
+                numeros("2");
             break;
             case "3":
-                display.innerText=display.textContent.concat("3");
+                numeros("3");
             break;
             case "4":
-                display.innerText=display.textContent.concat("4");
+                numeros("4");
             break;
             case "5":
-                display.innerText=display.textContent.concat("5");
+                numeros("5");
             break;
             case "6":
-                display.innerText=display.textContent.concat("6");
+                numeros("6");
             break;
             case "7":
-                display.innerText=display.textContent.concat("7");
+                numeros("7");
             break;
             case "8":
-                display.innerText=display.textContent.concat("8");
+                numeros("8");
             break;
             case "9":
-                display.innerText=display.textContent.concat("9");
+                numeros("9");
             break;
-
+            case "0":
+                numeros("0");
+            break;
         }
     });
 });
+
+const numeros = function numeros(num){
+    display.textContent == "0" ? display.innerText = "" : display.innerText = display.textContent;
+    display.innerText = display.textContent.concat(num);
+}
 
