@@ -118,3 +118,17 @@ body{
         background-color: white;
     }
 }
+
+@media (max-width: 300px) {
+    .calculator {
+            button {
+                width: 30px;
+                height: 30px;
+                background-color: black;
+            }
+    
+            .btn-equals {
+                height: 70px;
+            }
+        }
+}
