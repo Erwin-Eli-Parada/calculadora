@@ -55,6 +55,7 @@ body {
   border-width: 0;
   font-weight: 600;
   margin: 3px;
+  font-size: 1.1em;
   cursor: pointer;
   transition: all 200ms ease;
 }
