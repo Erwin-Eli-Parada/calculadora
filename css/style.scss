@@ -37,7 +37,7 @@ body{
         justify-content: end;
         
         #display{
-            font-size: larger;
+            font-size: x-large;
             text-align: end; 
             margin: 5px;
             background-color: rgba(170, 170, 170, 0.115);
@@ -73,12 +73,30 @@ body{
     }
     .btn-equals{
         background-color: #93f49e;
-        height: 120px;
+        height: 130px;
     }
 
     /*dark-screen*/
     &.dark{
         background-color: black;
+        #display{
+            background-color: rgba(152, 151, 151, 0.466);
+            color: white;
+        }
+        #clear{
+            background-color: #5914fb;
+            color: white;
+        }
+    
+        .btn-operator{
+            background-color: #f7f313;
+        }
+        .btn-number{
+            background-color: #2061fa;
+        }
+        .btn-equals{
+            background-color: #20fa39;
+        }
     }
 }
 

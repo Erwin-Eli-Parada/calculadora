@@ -41,7 +41,7 @@ body {
   justify-content: end;
 }
 .calculator .display-screen #display {
-  font-size: larger;
+  font-size: x-large;
   text-align: end;
   margin: 5px;
   background-color: rgba(170, 170, 170, 0.115);
@@ -72,10 +72,27 @@ body {
 }
 .calculator .btn-equals {
   background-color: #93f49e;
-  height: 120px;
+  height: 130px;
 }
 .calculator.dark {
   background-color: black;
+}
+.calculator.dark #display {
+  background-color: rgba(152, 151, 151, 0.466);
+  color: white;
+}
+.calculator.dark #clear {
+  background-color: #5914fb;
+  color: white;
+}
+.calculator.dark .btn-operator {
+  background-color: #f7f313;
+}
+.calculator.dark .btn-number {
+  background-color: #2061fa;
+}
+.calculator.dark .btn-equals {
+  background-color: #20fa39;
 }
 
 .theme-toggler {
