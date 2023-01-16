@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, rgb(219, 252, 236), rgb(11, 245, 77));
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  position: relative;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(130, 187, 130);
+}
+.calculator #display {
+  font-size: larger;
+  margin: 10px 0;
+  background-color: rgba(170, 170, 170, 0.115);
+}/*# sourceMappingURL=style.css.map */
