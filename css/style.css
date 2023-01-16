@@ -29,15 +29,7 @@ body {
   align-items: end;
   border-radius: 10px;
   box-shadow: 0 0 30px rgb(130, 187, 130);
-}
-.calculator .theme-toggler {
-  position: absolute;
-  background: rgb(104, 104, 104);
-  top: 20px;
-  width: 25px;
-  height: 25px;
-  border-radius: 20px;
-  box-shadow: 0 0 5px;
+  /*dark-screen*/
 }
 .calculator .display-screen {
   width: 100%;
@@ -63,6 +55,11 @@ body {
   border-width: 0;
   font-weight: 600;
   margin: 3px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.calculator button:hover {
+  transform: scale(1.1);
 }
 .calculator #clear {
   background-color: #f4939a;
@@ -76,4 +73,22 @@ body {
 .calculator .btn-equals {
   background-color: #93f49e;
   height: 120px;
+}
+.calculator.dark {
+  background-color: black;
+}
+
+.theme-toggler {
+  position: absolute;
+  background: rgb(104, 104, 104);
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-toggler.active {
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
