@@ -48,6 +48,7 @@ body {
   width: 100%;
   padding: 3px 3px;
   height: 35px;
+  border-radius: 5px;
 }
 .calculator button {
   height: 60px;
